@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: NL_MIHE_GitbasedProject
+  gitServerName: NL_MIHE_Github
+  gitUrl: https://github.com/elpinjo/NL_MIHE_GitbasedProject
+  gitUsername: elpinjo
+  gitBranch: main
