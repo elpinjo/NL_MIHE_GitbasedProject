@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="OrderEntry" SERVICE="orderentry.service:insertOrder">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPDELETE FIELD="/customer_id;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/product_quantity;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/product_id;1;0">
+</MAPDELETE>
+</MAP>
+</INVOKE>
+</FLOW>
