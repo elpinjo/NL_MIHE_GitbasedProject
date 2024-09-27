@@ -7,3 +7,58 @@ packages:
   gitUrl: https://github.com/elpinjo/NL_MIHE_GitbasedProject
   gitUsername: elpinjo
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: softwareag
+services:
+- serviceName: project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:OrderDatabase
+  packages:
+  - name: NL_MIHE_GitbasedProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.trustStore
+  : ""
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.databaseName
+  : ordermgt
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.password
+  : "{AES}R8T5JD08oJzYmvTAa6hLaA=="
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.driverType
+  : mysqlDriverGroup
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.keyStore
+  : ""
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.serverName
+  : localhost
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.datasourceClass
+  : com.mysql.cj.jdbc.MysqlDataSource
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.dbType
+  : MySQL
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.user
+  : root
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionEnabled
+  : "false"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.portNumber
+  : "3306"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.minimumPoolSize
+  : "1"
