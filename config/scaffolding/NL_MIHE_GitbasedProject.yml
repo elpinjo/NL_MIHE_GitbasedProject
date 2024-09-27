@@ -15,6 +15,14 @@ services:
   packages:
   - name: NL_MIHE_GitbasedProject
     version: "1.0"
+- serviceName: project.nl_mihe_gitbased.integrations:insertOrder
+  packages:
+  - name: NL_MIHE_GitbasedProject
+    version: "1.0"
+- serviceName: project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertOrder
+  packages:
+  - name: NL_MIHE_GitbasedProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.NL_MIHE_GitbasedProject.project.nl_mihe_gitbased.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.OrderDatabase.connectionManagerSettings.heartBeatInterval
   : "0"
