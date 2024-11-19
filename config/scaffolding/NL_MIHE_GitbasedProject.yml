@@ -10,12 +10,12 @@ packages:
 - name: WmJDBCAdapter
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
-- name: OrderEntry
+- name: CustomerRelations
   gitServerName: NL_MIHE_Github
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: master
-- name: CustomerRelations
+- name: OrderEntry
   gitServerName: NL_MIHE_Github
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
