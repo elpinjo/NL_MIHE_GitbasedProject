@@ -16,6 +16,11 @@ packages:
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: master
+- name: Amortisation
+  gitServerName: NL_MIHE_Github
+  gitUrl: https://github.com/elpinjo
+  gitUsername: elpinjo
+  gitBranch: master
 services:
 - serviceName: project.nl_mihe_gitbased.integrations:calcAmort
   packages:
