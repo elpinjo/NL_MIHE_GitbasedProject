@@ -309,6 +309,12 @@
 
 <MAPDELETE FIELD="/interest;1;0">
 </MAPDELETE>
+
+<MAPDELETE FIELD="/principle;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/periodsInMonths;1;0">
+</MAPDELETE>
 </MAP>
 </INVOKE>
 </FLOW>
