@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">no</value>
+  <value name="enabled">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="OrderEntry">1.0</value>
     <value name="OrderAnalytics">1.0.1</value>
+    <value name="OrderEntry">2.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">45</value>
+  <value name="build">46</value>
   <null name="description"/>
   <value name="created_date">20-09-2024 12:50:05 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-01-02T21:48:07.900199852Z</value>
+  <value name="lastUpdated">2025-01-03T10:12:52.129523832Z</value>
   <value name="wmProjectId">fl7a6fdba49e3794a25f00f3</value>
   <value name="creator">Misja Heuveling</value>
 </Values>
