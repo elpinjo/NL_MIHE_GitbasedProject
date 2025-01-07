@@ -8,19 +8,19 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="OrderEntry">2.1.0</value>
     <value name="OrderAnalytics">1.1.0</value>
+    <value name="OrderEntry">2.1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">58</value>
+  <value name="build">59</value>
   <null name="description"/>
   <value name="created_date">20-09-2024 12:50:05 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-01-07T10:54:58.789891511Z</value>
+  <value name="lastUpdated">2025-01-07T10:55:16.37411208Z</value>
   <value name="wmProjectId">fl7a6fdba49e3794a25f00f3</value>
   <value name="creator">Misja Heuveling</value>
 </Values>
